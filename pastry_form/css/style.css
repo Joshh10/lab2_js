@@ -9,3 +9,7 @@ th {
   .quant {
     width: 50px;
   }
+
+  .error {
+    background-color: red;
+  }

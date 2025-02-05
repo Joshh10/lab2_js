@@ -2,6 +2,12 @@
 /* change the font of the whole website */
 /* change the font color of the whole website */
 /* change the font size of the whole website */
+*{
+  background-color: beige;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blueviolet;
+  font-size: 15px;
+}
 
 
 /* change all h1 and h2 tags to be: 
@@ -10,20 +16,36 @@
   - a color of your choosing
 */
 
+h1, h2{
+ text-align: center;
+ text-decoration: underline;
+  color: red;
+}
+
 
 /* change all h3 tags to be: 
   - underlined
   - a different color from the h1 and h2 tags 
 */
 
+h3{
+  text-decoration: underline;
+  color: green;
+}
 
 /* create a para1homepage id to have: 
   - a text color of your choosing 
 */
+#para1homepage{
+  color: orange;
+}
 
 
 /* create a center class that centers text */
 
+.center {
+  text-align: center;
+}
 
 /* create a paragraph class of p tags that has:
   - a font size of your choosing
@@ -32,7 +54,12 @@
   - a solid black border of 2px
   - rounded edges of 10px
 */
-
+.paragraph{
+  font-size: 10px;
+  background-color: #d7aaaa;
+  padding: 20px;
+  border: solid 2px black;
+}
 
 /* create a para4homepage id that has:
   - a font size of your choosing
@@ -44,26 +71,61 @@
   - a thick ridge border with color of your choosing
 */
 
+#para4homepage{
+  font-size:10px;
+  background-color: #d7aaaa;
+  padding: 20px;
+  margin: 20px 20px;
+  margin-top: 50px;
+  margin-left: 200px;
+  border: solid 10px black;
+
+}
 
 /* create a divmain id that has: 
   - a font color of your choosing
   - centered
 */
+#divmain{
+  color: blue;
+  text-align: center;
+ 
+}
+
 
 
 /* create a divcampus class that has:
   - a font color of your choosing
 */
+.divcampus{
+  color: blue;
+}
 
 
 /* create a divcontent class that has:
   - a font color of your choosing
 */
 
+.divcontent{
+  color:blue;
+}
 
 /* create a highlight class that has:
   - a font color of your choosing
 */
+.highlight{
+  color: blue;
+}
 
 
 /* change all links to blue but a different color when visited and a different color when hovered over */
+a {
+  color: blue;
+}
+
+a:hover{
+  color: green;
+}
+a:visited{
+  color: orange;
+}
